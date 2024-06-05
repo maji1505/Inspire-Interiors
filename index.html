@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireInteriors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo"><a href="#home" >&lt; <span style="color: white;">Inspire</span>Interiors /&gt;</a></div>
+        <ul>
+            <li ><a href="#home" >Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1><span>Welcome </span>to Our Interior Design Studio</h1>
+        <p>Creating beautiful and functional spaces for you.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our <span style="color: rgb(237, 237, 119);">Services</span></h2>
+        <div class="all-services">
+        <div class="service">
+            <h3><span>RESIDENTIAL </span> DESIGN</h3>
+            <p>Our residential design services aim to transform your home 
+                into a personalized oasis. We focus on creating functional and aesthetically
+                 pleasing spaces that reflect your unique style and preferences. </p>
+            <img src="./images/residential.jpg" alt="residential">
+        </div>
+        <div class="service">
+            <h3><span>COMMERCIAL </span> DESIGN</h3>
+            <p>Our residential design services aim to transform your home into a personalized oasis. 
+                We focus on creating functional and aesthetically pleasing spaces that reflect your unique
+                 style and preferences. </p>
+            <img src="./images/commercial.jpg" alt="commercial">
+        </div>
+        <div class="service">
+            <h3><span>OFFICE </span> DESIGN</h3>
+            <p>Our residential design services aim to transform your home into a personalized oasis. 
+                We focus on creating
+                 functional and aesthetically pleasing spaces that reflect your
+                  unique style and preferences.</p>
+            <img src="./images/office.jpg" alt="office">
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2><span style="color: rgb(98, 234, 234);">Contact</span> Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button class="button" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Interior Design Startup. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
